@@ -29,7 +29,7 @@ public class Main {
 	private static final String ALARM_DESCRIPTION_TEMPLATE = "{} 복습";
 	private static final String EVENT_SUMMARY_TEMPLATE = "{} 복습 일정: D+";
 	private static final String ALARM_TRIGGER_DURATION = "-PT1H"; // 1시간 전 알림
-	private static final List<Integer> REVIEW_INTERVALS = Arrays.asList(1, 7, 14, 28, 56, 84, 168, 365);
+	private static final List<Integer> REVIEW_INTERVALS = Arrays.asList(1, 1, 1, 1, 1, 1, 1);
 
 	public static void main(String[] args) throws Exception {
 		String subject = getSubjectFromUser();
